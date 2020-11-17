@@ -8,7 +8,7 @@
     "prebuild": "rm -rf build/* && tslint -c tslint.json -p    tsconfig.json --fix",
     "build": "tsc && cp -rf package.json build/package.json",
     "prestart": "npm run build",
-    "start": "ts-node ."    
+    "start": "ts-node ."
   },
   "repository": {
     "type": "git",
@@ -31,6 +31,9 @@
   },
   "dependencies": {
     "body-parser": "^1.19.0",
-    "express": "^4.17.1"
+    "chalk": "^4.1.0",
+    "express": "^4.17.1",
+    "moment-timezone": "^0.5.32",
+    "winston": "^3.3.3"
   }
 }
