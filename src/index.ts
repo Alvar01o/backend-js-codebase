@@ -1,7 +1,7 @@
 import {app} from './app'
 import {AddressInfo} from 'net'
 import chalk from 'chalk';
-import logger from './utils';
+import logger from './utils/logger';
 import moment from 'moment-timezone';
 
 const PORT = 5000;

@@ -7,5 +7,5 @@ app.use(bodyParser.json({
         req.rawBody = buf;
     }
 }));
-app.get('/', (req, res) => res.send('Hello World!'));
+app.get('/', (req, res) => res.send('Helloasd  World!'));
 export {app};
